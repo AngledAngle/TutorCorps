@@ -1,4 +1,5 @@
 Hello! This is my website called Tutor Corps -- mainly focusing on providing resources to students in need and remote + free volunteer opprotunities. 
+[![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
 
 I was inspired to make this website because of the GirlsWhoCode Pathways Web Development Track. 
 
@@ -20,6 +21,8 @@ I am also new to writing readme files so here is a basic crackdown:
 **JS files**
 1) index.js -- Currently empty but stay tune for future website updates! I plan to add more interactive features. 
 2) script.js -- Javascript file to program the quiz in quiz.html
+
+
 
 
 
