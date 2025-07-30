@@ -1,0 +1,208 @@
+
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+   font-family: 'Arial', Sans-Serif;
+}
+
+body {
+ background-color: #FFEAD8; 
+}
+
+/* STYLE TEXT */
+
+h1 {
+  text-align: center;
+  color: #2A1458;
+  font-size: 40px;
+  padding: 10px;
+}
+
+.Main, h2, h3 {
+   text-align: center;
+   color: #9B177E;
+   font-size: 25px;
+   padding: 1em;
+}
+
+.Submission {
+   text-align: center;
+   margin-left: 25%;
+   margin-right: 25%;
+   margin-top: 5px;
+   margin-bottom: 15px;
+   font-size: 20px;
+   color: #000000;
+   padding: 10px;
+   background-color: #FFFFFF;
+}
+
+.normal, #restart {
+   text-align: center;
+   color: #000000;
+   font-size: 25px;
+   margin-right: 25%;
+   margin-left: 25%;
+}
+
+/* STYLE IMAGES */
+
+#image {
+   display: block;
+   margin: auto;
+   width: 40%;
+   height: 40%;
+   text-align: center;
+   border: 10px white solid;
+}
+
+/* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  padding: 15px;
+  background-color: #E8988A;
+  text-align: center;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 25px;
+  padding: 2px;
+}
+
+a:hover{
+  color: #e32400
+}
+
+/* ADD MORE! */
+
+.Main {
+   background-image: url ("assets/volunteermain.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: relative;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   padding: 3em; 
+}
+
+/* STYLE BUTTONS */
+
+#q1a1, #q1a2, #q1a3, #q2a1, #q2a2, #q3a1, #q3a2, #q4a1, #q4a2, #q4a3 {
+   font-size: 15px;
+   text-decoration: none; 
+   padding: 10px 20px;
+   display: block;
+   margin: 0 auto 15px auto;
+   height: 5vh;
+   background-color: #E8988A;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+
+/*BACKGROUND SCROLL TEXT*/
+#Main {
+   position: relative;
+   background-image: url(https://images.unsplash.com/photo-1541802802036-1d572ba70147?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   height: 100vh;
+   color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   padding: 3em;
+   overflow: hidden;
+}
+
+.MainText {
+   font-size: 40px;
+   font-family: 'Times New Roman', Serif;
+   text-align: center;
+}
+
+#normal {
+   font-size: 30px;
+   color: #000000;
+   font-family: 'Times New Roman', Serif;
+}
+
+/* MAIN TEXT BOTTOM SCROLLING BACKGROUND */
+#gainHour {
+   position: relative;
+   background-image: url(https://images.unsplash.com/photo-1698502574302-3931e6ae92ed?q=80&w=1267&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   height: 100vh;
+   color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   padding: 3em;
+   overflow: hidden;
+}
+
+#gainHourText {
+   text-align: center;
+}
+
+#Footnote { 
+   font-size: 10px;
+   color: #9e9e9d;;
+   text-align: center;
+}
+
+/* EDITING QUIZ HEADER */ 
+#quizStart {
+   position: relative;
+   background-image: url(https://images.unsplash.com/photo-1633613286848-e6f43bbafb8d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   height: 100vh;
+   color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   padding: 3em;
+   overflow: hidden;
+   font-size: 30px;
+}
+
+
+#Link {
+   text-align: center;
+   font-size: 30px;
+   color: black;
+   padding: 10px 20px;
+   display: block;
+   margin: 0 auto 15px auto;
+}
+
+#restart {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: block;
+  font-size: 16px;
+  margin: 0 auto 15px auto;
+}
