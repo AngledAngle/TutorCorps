@@ -197,7 +197,7 @@ a:hover{
 }
 
 #restart {
-  background-color: #04AA6D; /* Green */
+  background-color: #E8988A;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -205,4 +205,45 @@ a:hover{
   display: block;
   font-size: 16px;
   margin: 0 auto 15px auto;
+}
+
+#Responsive {
+   background-color: #E8988A;
+   display: wrap;
+   margin-left: 15%;
+   margin-right: 15%;
+   text-align: center;
+
+   border: 2px;
+   border-color: #2A1458;
+   border-radius: 3;
+}
+
+#call {
+   font-size: 19px;
+}
+
+
+#callrep {
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   color: black;
+   font-size: 25px;
+}
+
+
+#callrepButton {
+  background-color: purple;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: block;
+  font-size: 16px;
+  margin: 0 auto 15px auto;
+}
+
+#scriptReturned {
+ font-size: 20px;
+ font-family: Georgia, 'Times New Roman', Times, serif;  
 }
